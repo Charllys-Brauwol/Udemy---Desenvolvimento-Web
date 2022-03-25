@@ -1,0 +1,16 @@
+<!--Aula 009 Cabeçalhos-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Meu Site</title>
+        <meta charset="utf-8"><!--01-->
+    </head>
+    <body>
+        Primeira <b>Página</b> WEB
+    </body>
+</html>
+
+<!--
+    Lista de Observações:
+    01 - A tag meta não precisa de tag de fechamento pois é definida no próprio atributo(charset).
+-->
