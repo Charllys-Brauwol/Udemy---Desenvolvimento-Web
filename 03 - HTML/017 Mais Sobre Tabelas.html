@@ -1,0 +1,53 @@
+<!--Aula 017 Mais Sobre Tabelas-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Página Principal</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h2> Lista de Produtos</h2>
+        <table border="2" width="100%" ><!--01-->
+            <tr>
+                <th>Código</th>
+                <th>Produto</th>
+                <th>Preço</th>
+            </tr>
+            <tr>
+                <td>1212</td>
+                <td><img src="Aula 14/ferrari.jpg" width="200"></td><!--02-->
+                <td>R$ 2.678,09</td>
+            </tr>
+            <tr>
+                <td>1213</td>
+                <td><a href="www.facebook.com">Clique</a></td><!--03-->
+                <td>R$ 1.478,09</td>
+            </tr>
+            <tr>
+                <td>1214</td>
+                <td>Celular</td>
+                <td>R$ 5.078,09</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Descontos</td>
+                <td colspan="2">Cumpom 1 - R$ 10,00</td><!--04-->
+            </tr>
+            <tr>
+                <td colspan="2">Cumpom 2 - R$ 12,00</td><!--04-->
+            </tr>
+            <tr>
+                <td>Total:</td>
+                <td colspan="2">R$ Valor</td>
+            </tr>
+        </table>
+    </body>
+</html>
+
+<!--
+    Lista de Observações:
+    01 - A tag width define o tamanho em pix ou em porcentagem em relação ao navegar da tabela.
+    02 - Colocando Imagens dentro da tabela
+    03 - Pode colocar links na tabela
+    04 - O atributo colspan define a quantidade de células que a linha irá ocupar
+    05 - O atributo rowspan define a quantidade de células que a coluna irá ocupar
+-->
